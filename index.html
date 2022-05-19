@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp trick</title>
+    <link rel="icon" href="images/pic_bulbon.gif">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="demo" class="vh-100">
+        <div class="container-fluid h-100 text-center d-flex justify-content-around flex-column align-items-center">
+            <div class="row w-100 py-5">
+                <div class="col-3">
+                    <button onclick="turnOn()" class="btn btn-success">Turn On</button>
+                </div>
+                <div class="col-6">
+                    <img src="images/pic_bulboff.gif" id="imgElement" class="img-fluid" alt="">
+                </div>
+                <div class="col-3">
+                    <button onclick="turnOf()" class="btn btn-danger">Turn Of</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button id="turnOnOf" onclick="convert()" class="btn btn-primary">Turn On</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
